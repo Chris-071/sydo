@@ -1,0 +1,14 @@
+const discord = require("discord.js");
+
+module.exports.run = async(client, message, args) => {
+
+
+}
+
+module.exports.help = {
+    name: ""
+}
+
+
+ const msg = await message.channel.send("Laden...");
+ msg.edit("Ik ben nog in de maak.")
