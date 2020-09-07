@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const config = require("./Config.json");
 const client = new discord.Client();
 client.commands = new discord.Collection();
-client.login(procces.env.token)
+client.login(process.env.token)
 const fs = require("fs");
 
 const activiteiten = [
